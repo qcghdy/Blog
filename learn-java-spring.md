@@ -9,3 +9,21 @@
 
 What is spring injection?
 Spring provides a light-weight container, e.g. the Spring core container, for dependency injection (DI). This container lets you inject required objects into other objects. ... The injection in Spring is either done via setter injection of via construction injection.
+
+
+类加载:Java命令的作用是启动虚拟机，虚拟机通过输入流，从磁盘上将字节码文件(.class文件)中的内容读入虚拟机，并保存起来的过程就是类加载。
+
+ 
+
+类加载特性 :
+      *在虚拟机的生命周期中一个类只被加载一次。
+      *类加载的原则：延迟加载，能少加载就少加载，因为虚拟机的空间是有限的。
+      *类加载的时机：
+      1）第一次创建对象要加载类.
+      2）调用静态方法时要加载类,访问静态属性时会加载类。
+      3）加载子类时必定会先加载父类。
+      4）创建对象引用不加载类.
+      5) 子类调用父类的静态方法时
+          (1)当子类没有覆盖父类的静态方法时，只加载父类，不加载子类
+          (2)当子类有覆盖父类的静态方法时，既加载父类，又加载子类
+      6）访问静态常量，如果编译器可以计算出常量的值，则不会加载类,例如:public static final int a =123;否则会加载类,例如:public static final int a = math.PI。
