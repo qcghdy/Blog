@@ -1,0 +1,11 @@
+学习spring，在语言转型的过程中，从Cpp转Java，使用spring框架时，用起来感觉挺容易，但又遇到了很多概念，例如IoC、控制反转，DI 依赖注入，这两个词从中文翻译理解，真的是一头雾水。
+只有先理解了概念，才能更好的去使用java。
+
+首先理解一个基础，又觉得容易理解，但理解起来又感觉模模糊糊，刚开始说不清的概念，inject，注入。
+
+首先要理解一个oop中的基础概念，类的关系，主要包括继承、组合、聚合、关联。这些关系，除了继承这种强关系外，其余的都可以认为，依赖是两个类，实际上是程序运行时两个类的一种最弱关系，也就意味着耦合最小的关系。
+
+常规流程中，A依赖B，包括组合，聚合，关联，那对象之间，一定要先new或者初始化之后，才能使用。
+
+What is spring injection?
+Spring provides a light-weight container, e.g. the Spring core container, for dependency injection (DI). This container lets you inject required objects into other objects. ... The injection in Spring is either done via setter injection of via construction injection.
