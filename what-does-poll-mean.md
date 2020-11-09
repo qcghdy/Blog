@@ -32,3 +32,6 @@ https://zhuanlan.zhihu.com/p/115220699
 
 https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-12/
 https://idea.popcount.org/2017-02-20-epoll-is-fundamentally-broken-22/
+
+实现
+https://juejin.im/post/6844904200141438984
